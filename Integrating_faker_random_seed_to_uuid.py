@@ -4,6 +4,9 @@ import uuid
 import string
 print(uuid.NAMESPACE_DNS)
 print(type(uuid.NAMESPACE_DNS))
+uuid_var=uuid.uuid1()
+print(uuid_var.hex)
+print(type(uuid_var))
 #Integrating the random with the uuid
 # num1=random.seed(3)
 # num2=random.randint(1,1000000000000000000000)
