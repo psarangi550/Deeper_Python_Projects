@@ -4,5 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="pygithub_Scraping_github_with_python_request_beautiful_soup" />
+    <orderEntry type="module" module-name="AWS_python_paramiko" />
   </component>
 </module>
