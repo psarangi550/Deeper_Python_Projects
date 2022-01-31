@@ -1,2 +1,3 @@
 .editorconfig
 .idea
+.mypy_cache
