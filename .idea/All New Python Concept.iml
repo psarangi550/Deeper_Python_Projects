@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pygithub_Scraping_github_with_python_request_beautiful_soup" />
     <orderEntry type="module" module-name="AWS_python_paramiko" />
+    <orderEntry type="module" module-name="PytestIndepth" />
   </component>
 </module>
