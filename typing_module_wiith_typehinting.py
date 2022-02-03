@@ -22,3 +22,13 @@ def add(a:T , b:T)->T:
 
 help(add)
 print()
+
+
+#lets see how dict will act
+from typing import Dict
+def dict_val(dict1:dict [str, int])->None:
+    for key,val in dict1.items():
+        print(f"{key}==>{val}")
+
+
+dict_val({"roll":101})
