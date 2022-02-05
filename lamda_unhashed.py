@@ -112,5 +112,42 @@ import countries as countries
 #ternary operator with lambda
 ########################################
 
-# s=lambda a,b,c : a if a>b and a>c else b if b>c else c
+# s=lambda a,b,c : a if a>b
+# and a>c else b if b>c else c
 # print(s(2,15,6))
+
+################################
+
+
+# list1=[x for x in range(10)]
+# f=filter(lambda x: x%2==0,list1)
+# print(list(f))
+
+# list1=[x for x in range(10)]
+# l1=list(filter(lambda x: x%2!=0 and x%3==0,list1))
+# print(l1)
+
+# import re
+# list1=["rika","abi","gundu","rikun"]
+# l2=list(filter(lambda x: re.match("r",x),list1))
+# print(l2)
+
+
+# import keyword
+# print(keyword.kwlist)
+
+# import math
+# list1=[x for x in range(10)]
+# l3=list(map(lambda a: int(math.pow(a,2)),list1))
+# print(l3)
+# import list1 as list1
+
+# list1=[[1,2,3,4],[5,6,7,8]]
+# from functools import reduce
+# l3=reduce(lambda a,b : [sum(a)for i in a]+[sum(a)for i in b], list1)
+# print(l3)
+
+################################
+
+import importlib
+print(dir(importlib))
