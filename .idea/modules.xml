@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../AWS_python_paramiko/.idea/AWS_python_paramiko.iml" filepath="$PROJECT_DIR$/../AWS_python_paramiko/.idea/AWS_python_paramiko.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/All New Python Concept.iml" filepath="$PROJECT_DIR$/.idea/All New Python Concept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/All_New_Python_Concept.iml" filepath="$PROJECT_DIR$/.idea/All_New_Python_Concept.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PytestIndepth/.idea/PytestIndepth.iml" filepath="$PROJECT_DIR$/../PytestIndepth/.idea/PytestIndepth.iml" />
       <module fileurl="file://$PROJECT_DIR$/../pygithub_Scraping_github_with_python_request_beautiful_soup/.idea/pygithub_Scraping_github_with_python_request_beautiful_soup.iml" filepath="$PROJECT_DIR$/../pygithub_Scraping_github_with_python_request_beautiful_soup/.idea/pygithub_Scraping_github_with_python_request_beautiful_soup.iml" />
     </modules>

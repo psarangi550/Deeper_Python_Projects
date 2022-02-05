@@ -122,23 +122,27 @@
 #####here checking all the py interpreter
 ################################################################
 
-'''
-here are few doc string
-
-'''
-
-
-
-# print(__file__,end="-")
-# print(__doc__)
+# '''
+# here are few doc string
 #
-import os
-# print(os.path.abspath(os.path.dirname(__file__)))
-# print(os.path.abspath(__file__)=="C:\\Users\\611903295\\Downloads\\All New Python Concept\\decorator_unhashed.py")
+# '''
+#
+#
+#
+# # print(__file__,end="-")
+# # print(__doc__)
+# #
+# import os
+# # print(os.path.abspath(os.path.dirname(__file__)))
+# # print(os.path.abspath(__file__)=="C:\\Users\\611903295\\Downloads\\All New Python Concept\\decorator_unhashed.py")
 
-print(__package__)
+# print(__package__)
 
+# x=10
 
+def func():
+    return 10
+print(func.__class__.__name__)
 
 
 
