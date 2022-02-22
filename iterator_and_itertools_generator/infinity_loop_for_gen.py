@@ -12,5 +12,5 @@ while True:
     try:
         print(next(generator_gen))
     except StopIteration as e:
-        print((e.value))
+        print((e))
         break
