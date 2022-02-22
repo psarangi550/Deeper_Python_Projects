@@ -2,7 +2,7 @@ class TopTen(object):
     def __init__(self):
         self.num=1
     def __iter__(self):
-        return self
+        return self #here we are returning the __iter__ method as self because iterator __iter__ method return iterator object
     def __next__(self):
         if self.num < 10: 
             val=self.num
