@@ -13,14 +13,15 @@ import time
 # print(mem_usage)
 
 list1=[]
-memory_usage
+mem_usage=memory_usage()
 def list_count(num):
     for i in range(num):
-        time.sleep(1)
+        # time.sleep(1)
         list1.append(i*i)
         
 
 
 list_count(10)
-# mem_usage=memory_usage((list_count,(10,)))
+mem_usage1=memory_usage((list_count,(10,)),timeout=10,interval=10)
 print(mem_usage)
+print(mem_usage1)
