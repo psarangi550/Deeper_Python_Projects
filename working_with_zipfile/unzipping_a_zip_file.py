@@ -18,6 +18,7 @@ print(unzip.namelist())
 
 for file in unzip.namelist():
     with open(file,"r") as f: 
+        print(f"file name is {f.name}")
         print(f.read())
         print()
 # print(inspect.getfullargspec(zipfile.ZipFile))
